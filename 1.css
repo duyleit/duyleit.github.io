@@ -1,14 +1,37 @@
 
-
 body,html {
 
     font-family: "Times New Roman";
     color: black;
     height: 100%;
     width: 100%;
-
+    background: #F1F2F7;
 }
 
+
+.kn,
+.da
+{
+    background:#FFF;
+    margin-bottom: 30px;
+}
+.ttlh {
+    background: #FFF;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.edu
+{
+    background:#FFF;
+}
+.bg
+{
+    background-image: url("resources/header-bg.jpg");
+    background-position: 50% -145px;
+    width: 1903px;
+    height: 800px;
+}
 
 h1{
     text-align: center;
@@ -81,7 +104,7 @@ a.nav-link {
 }
 
 .tieudeto {
-    margin-top: 120px;
+    margin-top: 45px;
 }
 h2.tieudecap2 {
     font-weight: normal;
@@ -95,30 +118,30 @@ h2.tieudecap2 {
     padding-right: 70px;
 }
 
-.xuong {
-    width: 40px;
-    height: 77px;
-    border: white solid 1px;
-    position: absolute;
-    left: 50%;
-    border-radius: 30px;
-    bottom: -5%;
-    margin-left: -15px;
-    /*z-index: 2;*/
-    cursor: pointer;
-    transition: 0.4s;
-}
-.xuong:hover {
-    bottom: 0.5%;
-}
+/*.xuong {*/
+    /*width: 40px;*/
+    /*height: 77px;*/
+    /*border: white solid 1px;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*border-radius: 30px;*/
+    /*bottom: -5%;*/
+    /*margin-left: -15px;*/
+    /*!*z-index: 2;*!*/
+    /*cursor: pointer;*/
+    /*transition: 0.4s;*/
+/*}*/
+/*.xuong:hover {*/
+    /*bottom: 0.5%;*/
+/*}*/
 
-.xuong:after {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 8px;
-    background: white;
-    left: 50%;
-    bottom: 78%;
-}
+/*.xuong:after {*/
+    /*content: "";*/
+    /*position: absolute;*/
+    /*width: 3px;*/
+    /*height: 8px;*/
+    /*background: white;*/
+    /*left: 50%;*/
+    /*bottom: 78%;*/
+/*}*/
 
