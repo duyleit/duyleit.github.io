@@ -1,0 +1,124 @@
+
+
+body,html {
+
+    font-family: "Times New Roman";
+    color: black;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+h1{
+    text-align: center;
+}
+
+nav.navbar.navbar-light.bg-faded {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+li.nav-item {
+    margin: 0;
+    padding: 0;
+    margin: 0 17px;
+
+}
+
+a.nav-link {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 81px;
+}
+
+/*@media(max-width:576px)*/
+/*{*/
+    /** {}*/
+    /*a.navbar-brand {*/
+        /*display: block;*/
+        /*text-align: center;*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*a.nav-link*/
+    /*{*/
+        /*display: inline;*/
+        /*line-height: 27px;*/
+     /*}*/
+
+    /*.tt img {*/
+        /*width: 265px;*/
+        /*margin-top: -60px;*/
+    /*}*/
+
+/*}*/
+
+
+.khoitt1 {
+    height: 900px;
+    width: 100%;
+    background: #f2dede;
+}
+
+.container.text-xs-center {
+    /* margin: 0; */
+    padding-top: 80px;
+    text-align: center;
+}
+
+.tt img {
+    margin-bottom: 20px;
+}
+
+.tieudeto h1 {
+    text-transform: uppercase;
+    /* display: inline; */
+    /* padding-top: 4px; */
+    font-size: 30px;
+}
+
+.tieudeto {
+    margin-top: 120px;
+}
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+}
+
+.khoittnho img {
+    width: 450px;
+    height: 345px;
+    margin-top: 30px;
+    padding-right: 70px;
+}
+
+.xuong {
+    width: 40px;
+    height: 77px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: -5%;
+    margin-left: -15px;
+    /*z-index: 2;*/
+    cursor: pointer;
+    transition: 0.4s;
+}
+.xuong:hover {
+    bottom: 0.5%;
+}
+
+.xuong:after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 78%;
+}
+
