@@ -83,7 +83,7 @@
 
      <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-         <li class="active"><a href="#"><i class="fa fa-home"> Giới Thiệu</i></a></li>
+          <li class="active"><a href="#"><i class="fa fa-home"> Giới Thiệu</i></a></li>
           <li><a href="#" class="nav_kn"><i class="fa fa-bar-chart-o"> Kinh Nghiệm</i></a></li>
           <li><a href="#" class="nav_da"><i class="fa fa-signal"> Dự Án</i></a></li>
           <li><a href="#" class="nav_ttlh"><i class="fa fa-book"> Thông Tin Liên Hệ</i></a></li>
@@ -347,7 +347,7 @@
          </div>
      </div>
  </div>
-
+ <a id="top"><img src="resources/icon_back_to_top.png"></a>
  <footer>
      <div class="containe">
          <div class="row" style="margin-bottom: 10px">
@@ -356,7 +356,7 @@
          <!--<div class="card">-->
              <!--<div class="card-body">-->
                  <!--<div class="row">-->
-                     <!--<div class="col-sm-12">-->
+                     <!--<div class="col-sm-12">--
                          <!--&lt;!&ndash;<small> &copy; 2019 by Duyle. </small>&ndash;&gt;-->
                      <!--</div>-->
                  <!--</div>-->
@@ -366,15 +366,13 @@
   </footer>
 
 
+
  <script src="vendor/jquery.min.js" type="text/javascript"></script>
  <script src="vendor/bootstrap.js" type="text/javascript"></script>
  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
 <script src="1.js" type="text/javascript"   ></script>
 <script type="text/javascript">
-
-
-
     // $(function () {
     //     vitricuaedu = $('#khoiedu').offset().top;
     //
@@ -382,8 +380,25 @@
     //         $('body,html').animate({scrollTop:500})
     //     })
     // })
-
-
 </script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#wrapper').append('<a id="top"><i class="fa-arrow-circle-up fa"></i></a>') // neu bi disable javasript
+        $(window).scroll(function () {   // ham kt co cuon chuot
+            if ( $(window).scrollTop()!=0)
+            {
+                $('#top').fadeIn();
+            }
+            else
+            {
+                $('#top').fadeOut();
+            }
+        });
+        $('#top').click(function ()
+        {
+            $('html,body').animate({scrollTop:0},500);
+        });
+    });
+    </script>
  </body>
 </html>
