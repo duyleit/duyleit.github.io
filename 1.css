@@ -22,7 +22,8 @@ body,html {
     margin-top: 30px;
     padding-bottom: 30px;
 }
-.edu
+.edu,
+.news
 {
     background:#FFF;
 }
@@ -93,9 +94,9 @@ a.nav-link {
     text-align: center;
 }
 
-.tt img {
-    margin-bottom: 20px;
-}
+/*.tt img {*/
+    /*margin-bottom: 20px;*/
+/*}*/
 
 .tieudeto h1 {
     text-transform: uppercase;
@@ -105,7 +106,7 @@ a.nav-link {
 }
 
 .tieudeto {
-    margin-top: 45px;
+    margin-top: 25px;
 }
 h2.tieudecap2 {
     font-weight: normal;
@@ -158,4 +159,33 @@ h2.tieudecap2 {
 {
     width: 35px;
     height: 35px;
+}
+.title
+{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #32323a;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.address-line li{
+    list-style: none;
+    margin-bottom: 15px;
+
+  }
+.info-line li{
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+.news-line li{
+    list-style: none;
+    margin-bottom: 15px;
+
+}
+.img-responsive
+{
+    margin-top: 40px;
 }
