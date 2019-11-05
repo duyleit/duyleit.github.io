@@ -3,9 +3,12 @@ body,html {
 
     font-family: "Times New Roman";
     color: black;
-    height: 100%;
-    width: 100%;
+    /*height: 100%;*/
+    /*width: 100%;*/
     background: #F1F2F7;
+    /*color: #8c8c8c;*/
+    font-size: 14px;
+    line-height: 1.42857143;
 }
 
 
@@ -30,9 +33,16 @@ body,html {
 .bg
 {
     background-image: url("resources/header-bg.jpg");
-    background-position: 50% -145px;
-    width: 1903px;
-    height: 800px;
+    /*background-position: 50% -145px;*/
+    /*width: 1903px;*/
+    /*height: 800px;*/
+
+
+    height: 594px;
+    width: 100%;
+    /*background-image: url(images/header-bg.jpg);*/
+    /*background-color: rgb(26, 188, 156);*/
+    background-position: 50% 0px;
 }
 
 h1{
@@ -185,7 +195,48 @@ h2.tieudecap2 {
     margin-bottom: 15px;
 
 }
+.favor-line li
+{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.text-warning {
+    color: #ffc107!important;
+}
 .img-responsive
 {
     margin-top: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.social-icons a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    margin-right: 9px;
+
+}
+
+.header-content {
+    padding-top: 280px;
+    padding-bottom: 200px;
+    padding-left: 840px;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 320px) {
+    .header-content {
+
+        padding-top: 286px;
+        padding-bottom: 104px;
+        padding-left: 57px;
+    }
+
 }
